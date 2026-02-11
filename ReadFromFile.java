@@ -1,4 +1,4 @@
-import java.util.*;
+import java.io.*;
 class ReadFromFile{
   public static void main(String[] args){
     try{
