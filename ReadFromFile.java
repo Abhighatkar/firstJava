@@ -4,8 +4,8 @@ class ReadFromFile{
     BufferedReader br = new BufferedReader(new FileReader("input.txt"));
 int a = Integer.parseInt(br.readLine());
 int b = Integer.parseInt(br.readLine());
-    } catch{
-      
+    } catch(Exception e){
+      System.out.println(e);     
     }
   }
 }
